@@ -1,0 +1,3 @@
+It costs some company 700usd a week to maintain a safety officer and another 340usd for each accident the safety officer must process. What is the expected weekly cost?
+
+We assume that the pmf of the accident distribution for a week is f(x) = (x+1)/15, for x in {0,1,2,3,4}

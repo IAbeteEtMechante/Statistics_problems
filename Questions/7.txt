@@ -1,0 +1,3 @@
+X is a random variable of variance sigma
+a and b two real numbers
+what is the variance of the random variable Y = aX + b
