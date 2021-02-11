@@ -1,0 +1,3 @@
+a parameter is a numerical descriptive measure of a population.
+For example, mean or standard deviation of a POPULATION(not sample!) are some parameters.
+The value for a parameter is almost always unknown, and the goal of statistical inference is to estimate it.

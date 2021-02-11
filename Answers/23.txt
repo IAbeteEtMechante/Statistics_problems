@@ -1,0 +1,3 @@
+in general, we use T-table only when the sample size is rather small (less than 30) AND the population standard deviation is NOT known.
+
+In all other cases, the Z-table is used.

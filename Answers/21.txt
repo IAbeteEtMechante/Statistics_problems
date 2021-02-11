@@ -1,0 +1,1 @@
+A confidence interval is an interval, computed from the sample data, that has a given probability to contain the population parameter of interest.

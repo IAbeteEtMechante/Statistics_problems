@@ -1,0 +1,38 @@
+Say we have a population of 30 students and we want to know the parameter mu = "mean number of siblings" of the population.
+
+We ask the question to 10 students. And here are the answers we get:
+(3,0,2,1,3,2,1,0,2,1)
+
+
+The way we proceed, is that we ASSUME that we know the form of the distribution of number of siblings per student in the population.
+For example, in that case, we would probably assume it is a Poisson.
+But for the sake of the example, let us assume, that we think the distribution 
+of number of siblings has the following shape:
+
+P(X = 0) =  2 * Θ/3
+P(X = 1) =  Θ/3
+P(X = 2) =  2 * (1 - Θ)/3
+P(X = 3) =  (1 - Θ)/3
+
+where Θ is an unknown parameter.
+Notice that the word parameter here is used for two somewhat different things.
+
+Θ is a parameter in the sense of parameter of a function (the distribution)
+Mu is a parameter of the population in the sense of statistics.
+It turns out theta can also be seen as a parameter of the population in the sense of statistics (in my personal opinion).
+
+Given our assumption of the form of the distribution, we have the following relation
+
+mu = E(X) = 1*Θ/3 + 2 * 2(1-Θ)/3 + 3 * (1-Θ)/3 = 7/3 - 2 * Θ
+
+More generally speaking, the parameter we want to estimate will be a 
+function of the parameter(s) that parametrize the distribution we assumed
+
+   mu = t(Θ) = 7/3 - 2 * Θ
+
+And our goal will be to get a sample (x1,x2,....xn), and to use it to estimate Θ, and then we will estimate mu as well.
+
+In a more general case, we could have more parameters Θ1, Θ2, etc....
+
+	mu = t(Θ1, Θ2, ...)
+

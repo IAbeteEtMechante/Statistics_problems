@@ -1,0 +1,1 @@
+In pratice, how do we estimate a parameter of a population?

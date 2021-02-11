@@ -1,0 +1,13 @@
+the sampling distribution of a statistic is:
+" a theorical distribution that shows the frequency of occurence of values of that statistic, computed for all possible samples of size N drawn for some population."
+
+It is easier to think about it like that:
+you have a population.
+you choose a sample size N.
+You choose a statistic, for example the mean.
+You sample the population a million times, with samples of size N.
+You take the mean of each of those samples.
+
+The sampling distribution of the mean will be the distribution of those results.
+
+(spoiler alert, it looks like a normal distriution for n>=30).

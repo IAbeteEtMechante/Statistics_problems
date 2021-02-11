@@ -1,0 +1,16 @@
+An estimator is a rule to estimate a given quantity based on future observed data.
+The estimate is the actual value obtained by plugging an actual sample to this rule
+The estimand is what we are trying to estimate.
+
+For example:
+If we try to estimate the mean age of a population of 1000 people.
+We can use samples of size 10 to estimate it
+our estimator will be to take the mean of 50 values of any sample
+
+Now if we actually pull a sample [13, 41, 72, 35, 35,  7, 76, 33, 34, 32] from the population.
+Our estimate is 37.8
+
+Our estimand is the mean age of the population of 1000 people, and we still don't know it, we just have an estimate of it.
+
+
+There can be point estimator and interval estimator. You should not put too much importance on point estimate. Intervel estimator with confidence level are much more usefull.

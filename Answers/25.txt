@@ -1,0 +1,36 @@
+properties of a good estimator are:
+1.unbiased
+2.efficient
+3.sufficient
+4.consistent
+
+unbiased means that its average is the estimand.
+the estimator usually depends on the sample size n. We can have asymptotically unbiased estimators(AUE).
+for example, it is well known that the sample variance is a biased estimator of the variance.
+
+Efficient means it's variability is not too high. If we take two estimators of the same parameter and they are both unbiased, the more efficient is the one with the smaller variance.
+
+More generally, we can measure efficiency using the mean square error:
+MSE(θ^) = Var(θ^) + Bias(θ^)**2
+
+θ^: means theta hat
+
+
+Consistency is a stronger condition than asymptunbiased; it requires the estimator (not just its expected value) to converge to the true value of the parameter (with convergence interpreted in various ways).
+
+Asymptotic unbiasedness ⟸  consistency + bounded variance
+
+Under some mild conditions, asymptotic unbiasedness is a necessary but not sufficient condition for consistency. 
+
+See this link:
+https://stats.stackexchange.com/questions/280684/intuitive-understanding-of-the-difference-between-consistent-and-asymptotically
+
+and:
+https://stats.stackexchange.com/questions/31036/what-is-the-difference-between-a-consistent-estimator-and-an-unbiased-estimator
+
+
+How about sufficient? What does that mean?
+Our problem is to estimate a parameter from some sample data. In order to do that, we'll find a statistic of that sample. A sufficient statistic is a statistic such that no other statistic of that same sample provides more information about the value of the parameter that we're trying to estimate. In other words, we can't find a better statistic (even if our sufficient statistic doesn't contain all the information about the parameter), but we can choose a worse statistic to use for our estimation.
+Be careful, a sufficient statistic (ss) for a parameter is not unique.
+see:
+https://math.stackexchange.com/questions/1186645/understanding-sufficient-statistic

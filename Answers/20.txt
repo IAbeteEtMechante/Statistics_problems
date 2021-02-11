@@ -1,0 +1,3 @@
+the standard error of the mean is the standard deviation of the sampling distribution of the mean.
+
+if the sample size N is more than 30, it is equal to the population standard deviation divided by sqrt(N)

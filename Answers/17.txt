@@ -1,0 +1,49 @@
+probability:
+-simple random samples
+-simple stratified samples
+-systematic samples
+-cluster samples
+
+non probability:
+-purposive samples
+-convenience samples
+-quota samples
+-snowball samples
+
+The best two are the first two: simple random samples and simple stratified samples.
+All sampling should be done with repetions, but in practice in doesnt matter in population is large enough
+The main point of sampling should be that everybody in the population should have the same chance to be selected. It is definitely not the case for non-probability sampling, and that's why probability sampling should be preferred when possible. 
+
+
+##########################################
+More explanations on each kind of samples:
+
+
+probability:
+-simple random samples : 
+A random sample is a sample that is chosen randomly. It could be more accurately called a randomly chosen sample. Random samples are used to avoid bias and other unwanted effects.
+
+-simple stratified samples:
+In stratified sampling, researchers divide subjects into subgroups called strata based on characteristics that they share (e.g., race, gender, educational attainment, etc). Once divided, each subgroup is randomly sampled using another probability sampling method.
+
+-systematic samples:
+Systematic sampling is a probability sampling method where researchers select members of the population at a regular interval – for example, by selecting every 15th person on a list of the population. If the population is in a random order, this can imitate the benefits of simple random sampling.
+
+
+-cluster samples:
+In cluster sampling, researchers divide a population into smaller groups known as clusters.  They then randomly select among these clusters to form a sample.
+
+Cluster sampling is a method of probability sampling that is often used to study large populations, particularly those that are widely geographically dispersed. Researchers usually use pre-existing units such as schools or cities as their clusters.
+
+non probability:
+-purposive samples:
+A purposive sample, also referred to as a judgmental or expert sample, is a type of nonprobability sample. The main objective of a purposive sample is to produce a sample that can be logically assumed to be representative of the population. This is often accomplished by applying expert knowledge of the population to select in a nonrandom manner a sample of elements that represents a cross-section of the population.
+
+-convenience samples:
+A convenience sample is a type of non-probability sampling method where the sample is taken from a group of people easy to contact or to reach. For example, standing at a mall or a grocery store and asking people to answer questions would be an example of a convenience sample.
+
+-quota samples:
+For example, a cigarette company wants to find out what age group prefers what brand of cigarettes in a particular city. He/she applies quotas on the age groups of 21-30, 31-40, 41-50, and 51+. From this information, the researcher gauges the smoking trend among the population of the city.
+
+-snowball samples:
+Snowball sampling or chain-referral sampling is defined as a non-probability sampling technique in which the samples have traits that are rare to find. This is a sampling technique, in which existing subjects provide referrals to recruit samples required for a research study.

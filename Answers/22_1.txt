@@ -1,0 +1,8 @@
+We can think of 3 factors:
+-level of confidence: more confidence -> bigger CI
+-variability of data: more variability -> bigger CI
+-sample size: bigger sample size -> smaller CI
+
+(See picture 20_2.png)
+
+Of course we want the smallest CI possible while at the same time we want the highest level of confidence possible.
