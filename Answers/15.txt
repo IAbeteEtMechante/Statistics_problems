@@ -13,4 +13,4 @@ Our estimate is 37.8
 Our estimand is the mean age of the population of 1000 people, and we still don't know it, we just have an estimate of it.
 
 
-There can be point estimator and interval estimator. You should not put too much importance on point estimate. Intervel estimator with confidence level are much more usefull.
+There can be point estimator and interval estimator. You should not put too much importance on point estimate. Interval estimator with confidence level are much more usefull.
