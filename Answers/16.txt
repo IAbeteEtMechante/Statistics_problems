@@ -31,6 +31,8 @@ function of the parameter(s) that parametrize the distribution we assumed
    mu = t(Θ) = 7/3 - 2 * Θ
 
 And our goal will be to get a sample (x1,x2,....xn), and to use it to estimate Θ, and then we will estimate mu as well.
+We can use several methods to estimate Θ given the sample (x1,x2,....xn).
+Two commons methods are method of moments, and maximum likelihood(more on that in other slides).
 
 In a more general case, we could have more parameters Θ1, Θ2, etc....
 
