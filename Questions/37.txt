@@ -1,0 +1,3 @@
+LEt us assume we have 2 fair dices.
+This is a sample of size 2 of an uniform distribution 
+Draw the sample distribution of the mean.

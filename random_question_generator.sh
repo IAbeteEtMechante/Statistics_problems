@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 clear
 current_directory=$(pwd)
-random_number=$(shuf -i 1-31 -n 1)
+random_number=$(shuf -i 1-37 -n 1)
 echo "Question number:" $random_number ":"
 printf "\n"
 question_txt="${current_directory}/Questions/${random_number}.txt"

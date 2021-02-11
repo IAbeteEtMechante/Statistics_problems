@@ -1,0 +1,6 @@
+proof of previous picture:
+
+you have to calculate the pdf of b^ before calculating
+E(b^) and Var(b^)
+see here:
+https://stats.stackexchange.com/questions/373121/biasedness-of-uniform-distribution-mle

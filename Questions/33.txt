@@ -1,0 +1,3 @@
+assume X ~ N(mu, sigma)
+
+What is the MLE of mu**2?
