@@ -1,0 +1,12 @@
+1/we convert to Z
+
+Z = (X-500)/100
+
+we want z such as P(Z <= z ) = 0.9
+
+we find the value z = 1.28 using the picture attached (11_2.png) (in blue on the picture, it is called x on the picture, but for us, it is called z)
+
+finally the answer x to our problem is:
+
+(x-500) /100 = z = 1.28
+so x = 128 + 500 = 628

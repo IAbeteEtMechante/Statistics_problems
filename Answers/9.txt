@@ -1,0 +1,4 @@
+the function pnorm in R give the pdf of a normal distribution.
+
+the answer to the question is pdf(1.33) - pdf(-1.33), so in R, it would just be:
+pnorm(1.33) - pnorm(-1.33)
