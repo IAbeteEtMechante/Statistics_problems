@@ -1,0 +1,6 @@
+let X ~ Exp(theta)
+
+Given a random sample of size 6:
+11.37, 3, 0.15, 4.27, 2.56, 0.59.
+
+Find the MME of theta.

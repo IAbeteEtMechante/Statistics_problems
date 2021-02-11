@@ -1,0 +1,18 @@
+as shown on the picture, for normal distribution, 
+equating the first and second moments gives us:
+
+mu^    = sample mean
+sigma^ = s
+
+in the particular case of this exercise a simple R code can give us:
+
+mu^    = 4.71
+sigma^ = 1.54
+
+################R code################
+> aa <- c(4.93, 6.82, 3.12, 7.57, 3.04, 4.98, 4.62, 4.84, 2.95, 4.22)
+> mean(aa)
+[1] 4.709
+> sd(aa)
+[1] 1.543182
+#######################################

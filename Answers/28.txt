@@ -1,0 +1,20 @@
+for an exponential distribution, the first moment is:
+E(X) = 1/theta
+
+for the sample of size 6:
+
+the mean is 3.66
+
+by equating the sample mean and the population mean, we get:
+1/theta = 3.66
+
+so theta = 0.27
+
+
+##########Python code########################
+>>> aa = [11.37, 3, 0.15, 4.27, 2.56, 0.59]
+>>> sum(aa)/len(aa)
+3.6566666666666663
+>>> 1/sum(aa)*len(aa)
+0.27347310847766637
+#############################################
