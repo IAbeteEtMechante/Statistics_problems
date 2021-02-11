@@ -1,0 +1,2 @@
+for highly skewed data.
+In that case, better use median and interquartile range.

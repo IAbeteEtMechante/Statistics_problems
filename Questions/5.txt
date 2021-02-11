@@ -1,0 +1,1 @@
+do the first 2 moments entirely determine the distribution of our data?

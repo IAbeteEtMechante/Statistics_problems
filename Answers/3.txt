@@ -1,0 +1,14 @@
+you can use:
+-range
+-interquartile range
+-variance
+-standard deviation
+-coefficient of variation
+
+
+reminder of the definition of each:
+-range : max - min
+-IQR: the IQR describes the middle 50% of values when ordered from lowest to highest
+-variance: google it if you dont know!
+-standard deviation: square root of variance
+-coefficient of variation: standard deviation expressed as a percentage of the mean   = ( std / mean * 100)%
