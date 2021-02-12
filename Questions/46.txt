@@ -1,0 +1,6 @@
+how to do linear regression in R, to get:
+-coefficients
+-std error
+-R^2
+-p value
+-CI

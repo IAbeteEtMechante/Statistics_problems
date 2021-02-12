@@ -1,0 +1,1 @@
+In linear regression, what is the standard error of estimate and how to calculate it?

@@ -1,0 +1,1 @@
+can you give some general idea on what is a strong correlation coefficient R? what is a weak one?

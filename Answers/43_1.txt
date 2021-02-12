@@ -1,0 +1,6 @@
+we can use the coefficient of determinitaion.
+many definition
+see picture 43_2.png
+on there sx^2 = sum of x_i^2
+sy^2  =sum of y_i^2
+carfeul on that picture too, x with a bar is the mean, not x hat. same for y with a bar.

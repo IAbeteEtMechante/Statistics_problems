@@ -1,0 +1,2 @@
+if you do one dimensional linear regression and there is no linear relationship between x_i and y_i, 
+what does the regression line look like? 

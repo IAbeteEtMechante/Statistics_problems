@@ -1,0 +1,11 @@
+x = age
+y = systolic blood pressure
+
+y  = 0.6534x + 94.04
+
+95%CI (0.438,0.868)
+to calculate CI you use 0.1088
+std error = 4.91
+p = 2.10^-16
+
+all the numbers are given in R with one line of code, see next picture.

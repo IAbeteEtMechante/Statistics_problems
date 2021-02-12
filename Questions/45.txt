@@ -1,0 +1,3 @@
+Look at the Framingham study.
+y = 0.65x + 94
+ and R^2 = 0.1959, what does R^2= 0.1959 indicate?

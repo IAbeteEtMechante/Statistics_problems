@@ -1,0 +1,6 @@
+this is a little tricky
+we know we can get an unbiased estimator of the variance by using the n/(n-1) correction.
+then we can get an unbiased estimator of the variance.
+But because the sqrt is not linear, the Sd is still biased and it is not possible to get an unbiased estimator of the sd (without knowing what the distribution looks like).
+more explanation towards the end of this lengthy video:
+https://www.khanacademy.org/math/ap-statistics/summarizing-quantitative-data-ap/measuring-spread-quantitative/v/sample-standard-deviation-and-bias
