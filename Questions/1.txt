@@ -1,1 +1,3 @@
-what are the disadvantages of the mean?
+Say that you want to analyse the central tendency of your data.
+you have a sample of n points. you take the sample mean to get an idea of the central tendancy.
+what are the disadvantages you might encounter?

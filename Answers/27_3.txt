@@ -1,0 +1,34 @@
+let us rephrase this for clarity.
+First note that:
+#########################################
+ the MME will depend on the sample size:
+  n
+#########################################
+for each parameter theta, 
+theta_MME_n = f(x1,x2,....xn)
+See how we indexed the estimator by n here.
+
+It is an estimator, which gives an estimate depending on a sample (x1,...xn).
+Remember the estimator is the litteral expresion and the estimate is the computed expression for a given sample.
+
+
+1 / we have a sample of size n : x1, x2, x3, ...xn
+
+2/ we also have a distribution, which shape is supposed known already. what is unknown is just one or more parameters of this distribution.
+For example, if we assume we have a Gaussian, we need to find 2 parameters: mu and sigma.
+If we assume we have an exponential, we just have to find one parameter lambda, etc...
+
+3/ so we have K parameters unknowns for the distribution. we need to find K equations to determine those parameters.
+for that we calculate the first K moments of the distribution in two ways:
+first way: with the litteral expression of the distribution
+second way: from the sample.
+
+
+for each k in {1,2,3...K}, we equate those two ways of calculating moments:
+E(X) = 1/n * (x1 +x2 +.... xn )    (1)
+E(X^2) = 1/n * (x1^2 +x2^2 +.... xn^2 )    (2)
+....
+E(X^K) = 1/n * (x1^K +x2^K +.... xn^K )    (K)
+
+we have (K) equations, so we can find the estimators of each of the K parameters of the distribution
+

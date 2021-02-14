@@ -4,3 +4,6 @@ how to do linear regression in R, to get:
 -R^2
 -p value
 -CI
+
+do it on the example of the famous Framingam dataset: try to do a linear regression between systolic blood pressure and age
+https://www.kaggle.com/amanajmera1/framingham-heart-study-dataset
