@@ -1,0 +1,11 @@
+main point of this question is to take advantage of the relation:
+E(A*X + b) = a*E(X) + b
+
+here X is the distribution given by the pmf f(x) = (x+1)/15 for x in {0,1,2,3,4}
+
+It is easy to calculate E(X) = 2.66.
+
+the solution of our problem is E(Y) where Y = 340X + 700
+so E(Y) = 340 * E(X) + 700 = 1606.66
+
+See picture attached for more explanations.

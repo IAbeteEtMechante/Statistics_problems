@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 clear
 current_directory=$(pwd)
-random_number=$(shuf -i 1-48 -n 1)
+#remember to change to adapt to the max number of questions
+random_number=$(shuf -i 1-52 -n 1)
 echo "Question number:" $random_number ":"
 printf "\n"
 question_txt="${current_directory}/Questions/${random_number}.txt"
@@ -19,6 +20,8 @@ answer_txt_4="${current_directory}/Answers/${random_number}_4.txt"
 answer_png_4="${current_directory}/Answers/${random_number}_4.png"
 answer_txt_5="${current_directory}/Answers/${random_number}_5.txt"
 answer_png_5="${current_directory}/Answers/${random_number}_5.png"
+answer_txt_6="${current_directory}/Answers/${random_number}_6.txt"
+answer_png_6="${current_directory}/Answers/${random_number}_6.png"
 
 
 if [[ -e $question_txt ]]; then
@@ -119,5 +122,21 @@ if [[ -e $answer_png_5 ]]; then
     read -p "Press enter to see next part of the answer."
     printf "\n"
     shotwell $answer_png_5
+
+fi
+
+if [[ -e $answer_txt_6 ]]; then
+    printf "\n\n"
+    read -p "Press enter to see next part of the answer."
+    printf "\n"
+    cat $answer_txt_6
+    
+fi
+
+if [[ -e $answer_png_6 ]]; then
+    printf "\n\n"
+    read -p "Press enter to see next part of the answer."
+    printf "\n"
+    shotwell $answer_png_6
 
 fi

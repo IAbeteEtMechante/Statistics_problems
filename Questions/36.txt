@@ -1,6 +1,6 @@
 what is the Maximum likelyhood estimator for an uniform distribution?
 
-f(x) = 1/b, for 0<x<b where x is a paramater.
+f(x) = 1/b, for 0<x<b where b is a parameter.
 
 Is that estimator biased?
 what is the variance of that estimator?
