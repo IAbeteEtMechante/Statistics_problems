@@ -39,3 +39,4 @@ These links are quite usefull in my opinion to calculate and visualize p-values 
 * [Normal distribution](https://homepage.divms.uiowa.edu/~mbognar/applets/normal.html)
 * [Student t distribution](https://homepage.divms.uiowa.edu/~mbognar/applets/t.html)
 * [Chi Square distribution](https://homepage.divms.uiowa.edu/~mbognar/applets/chisq.html)
+* [Fisher exact test](https://www.socscistatistics.com/tests/fisher/default2.aspx)
