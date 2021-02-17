@@ -1,1 +1,1 @@
-in linear regression, how much of the data should be within 2s of its estimate?
+in linear regression, we call s the standard deviation of the model. How much of the data should be within 2s of its estimate?
