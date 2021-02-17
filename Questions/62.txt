@@ -1,0 +1,4 @@
+Linear regression
+If you have a point that is very influential, what to do?
+
+(very influencual point: a point that if you take it out of your data, the linear regression line will be very different)

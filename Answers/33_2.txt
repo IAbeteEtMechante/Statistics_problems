@@ -1,0 +1,7 @@
+
+1/ you should first remember that the MLE of mu 
+is the sample mean
+
+(it is proven in another question, by finding the mu for whihc the gradient of the likelyhood funciton is equal to zero...which is the sample mean)
+
+2/ use invariant property of MLE in general. MLE of theta **2 is theta^ **2 where theta^ is the MLE of theta.

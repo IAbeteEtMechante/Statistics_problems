@@ -1,0 +1,18 @@
+no need to take the square of sd for the calculations
+step 1: set up hypotesis
+setp2: choose level of significance
+alpha = 0.05
+df = 8
+-> t_critical = 2.306 (easy to find with an online calculator, see next picture)
+
+step 3: calculate our t value:
+4.375 / (1.685 / sqrt(8))  = 7.34 > 2.36 so we reject the NULL hypothesis. 
+conclusion:
+our p-value is very small 0.00008,and our t-score is higher than the critical t-score
+Therefore we reject NULL hypothesis.
+Data support hypothesis that the population mean reading test score for slow learners taught by the new method is greater than the mean reading test score for those taught by the standard method.
+
+
+
+
+

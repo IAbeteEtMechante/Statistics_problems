@@ -1,0 +1,1 @@
+the formulas can be obtained easy by taking the gradient of the mean square error and solving for when this gradient is equal to zero.

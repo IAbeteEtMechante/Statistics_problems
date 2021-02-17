@@ -1,0 +1,5 @@
+linear regression:
+continuous variables
+
+logistic regression:
+categorical variables

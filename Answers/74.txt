@@ -1,0 +1,11 @@
+probability of success: 0.8
+then probability of failure is 0.2
+
+odds is the ratio of the two: here odds of success is 4.
+
+more generaly:
+odds = p / (1-p)
+
+proba range from 0 to 1
+odds range between 0 and +inf
+

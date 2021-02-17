@@ -1,0 +1,1 @@
+what are the interpretation of the slope and intercept, when you do a simple linear regression?

@@ -1,0 +1,3 @@
+AIC has no meaning by itself. It is relative
+We can just use it to compare AIC between two models.
+Bigger AIC is better = better fit.

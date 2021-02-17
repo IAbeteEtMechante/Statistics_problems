@@ -1,0 +1,1 @@
+what can be a bad situation to do logistic regression?

@@ -1,0 +1,5 @@
+the change of coefficient BMI is more than 10%:
+0.67 to 0.56
+
+conclusion:
+the other predictors we added are confounding factors.

@@ -2,7 +2,7 @@
 clear
 current_directory=$(pwd)
 #remember to change to adapt to the max number of questions
-random_number=$(shuf -i 1-52 -n 1)
+random_number=$(shuf -i 1-84 -n 1)
 echo "Question number:" $random_number ":"
 printf "\n"
 question_txt="${current_directory}/Questions/${random_number}.txt"
@@ -22,6 +22,8 @@ answer_txt_5="${current_directory}/Answers/${random_number}_5.txt"
 answer_png_5="${current_directory}/Answers/${random_number}_5.png"
 answer_txt_6="${current_directory}/Answers/${random_number}_6.txt"
 answer_png_6="${current_directory}/Answers/${random_number}_6.png"
+answer_txt_7="${current_directory}/Answers/${random_number}_7.txt"
+answer_png_7="${current_directory}/Answers/${random_number}_7.png"
 
 
 if [[ -e $question_txt ]]; then
@@ -138,5 +140,21 @@ if [[ -e $answer_png_6 ]]; then
     read -p "Press enter to see next part of the answer."
     printf "\n"
     shotwell $answer_png_6
+
+fi
+
+if [[ -e $answer_txt_7 ]]; then
+    printf "\n\n"
+    read -p "Press enter to see next part of the answer."
+    printf "\n"
+    cat $answer_txt_7
+    
+fi
+
+if [[ -e $answer_png_7 ]]; then
+    printf "\n\n"
+    read -p "Press enter to see next part of the answer."
+    printf "\n"
+    shotwell $answer_png_7
 
 fi

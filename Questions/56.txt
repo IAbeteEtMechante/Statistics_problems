@@ -1,0 +1,1 @@
+in linear regression, what is SSE? how to calculate it?

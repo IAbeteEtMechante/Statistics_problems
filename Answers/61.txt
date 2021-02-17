@@ -1,0 +1,6 @@
+we can do some transformation.
+take the log of one variable
+or the sqrt
+or the square...
+
+then try to fit a linear regression again with these transformed variables

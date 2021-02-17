@@ -1,0 +1,9 @@
+with simple linear regression, we find:
+
+systolic_blood_pressure = 1 + 0.67 * BMI
+
+then we do multiple linear regression:
+
+systolic_blood_pressure = 1 + 0.56 * BMI + 1.22*age + 0.322 * income
+
+What to conclude?

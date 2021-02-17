@@ -1,0 +1,1 @@
+because the more predictor variables you add, the better your R^2. But you want to penalize adding too many predictors.

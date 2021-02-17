@@ -1,0 +1,2 @@
+say you have n data points (x1,y1)...(xn,yn)
+what is the formula of the slope and intercept if you do a simple linear regression?

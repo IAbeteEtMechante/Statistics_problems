@@ -1,0 +1,9 @@
+the goal is to have a good model
+but also to not have too many predictor variable which are not very usefull
+
+if we had all the predictor variables under the sun, we will have a better fit, it will look better
+But the truth is that you want as little predictor variables as possbile
+
+how to do that?
+
+we remove the predictor variables that dont seem to help (bas p-value) and see if our model is still good.

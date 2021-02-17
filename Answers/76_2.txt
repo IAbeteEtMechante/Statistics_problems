@@ -1,0 +1,36 @@
+diagnostic:
+
+1/we test the null hypothesis with a chi-square test:
+
+df = 399 - 394 = 5
+chi_square_critical = 11.07 (from a chi sqaure table)
+chisuare = 499.98 - 458.52 = 41.346
+we can reject null hypothesis
+The model is a good fit here.
+
+AIC is another mesaure of how good the model fit
+
+2/ write the equation:
+
+admission = -3.98 + 0.002 (gre) + 0.804 (gpa) -0.675(rank2) - 1.340 (rank3) - 1.55 (rank4) 
+
+3/ to check the importance of rank2, rank3, rank4
+we can do it by hand, take them out and look if good fit or not
+or we can use R and perform a wald test(see next pictures)
+In wald test, we group together Terms= 4:6   (to group rank2, rank3 and rank4).
+
+nobody looks at z value and p value for intercept
+
+
+#######################################################
+here is the code in R:
+
+#need to tell R that "rank" is a categorical variable so that it knows it has to create dummy variables
+binary$rank = factor(binary$rank) 
+mylogit <- glm(admit ~ gre + gpa + rank, data = binary, family = binomial)
+summary(mylogit)
+
+
+library(aod)
+library(ggplot2)
+wald.test(b = coef(mylogit), Sigma = vcov(mylogit), Terms = 4:6)

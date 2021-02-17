@@ -1,0 +1,3 @@
+try to see if the outcome is linearly dependent of some predictor
+
+If not, for example, you can see a exponential curve ->  take the log. Or do some other transformations before doing multiple linear regression. 

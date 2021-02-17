@@ -1,0 +1,3 @@
+analyse the data in the file 76.csv
+make a logistic regression in R to predict admission or not 
+and diagnotic your results.

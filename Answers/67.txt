@@ -1,0 +1,3 @@
+1/ you check that the p-value is small: there is a relation between predictors and outcome
+
+2/ we cannot compare beta coefficients, but we can look at each p-value. Here p-value for GenderF is really high (0.85), so we can probably take it out.

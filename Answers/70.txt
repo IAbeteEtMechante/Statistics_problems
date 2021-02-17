@@ -1,0 +1,3 @@
+first thing is to check if at least one predictor amongst the n is useful.
+
+to do that you check the p-value on R. Or you run the test yourself: NULL hyptoehses, all betas are zeros. Prove it wrong with a small p-value.

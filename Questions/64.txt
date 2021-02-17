@@ -1,0 +1,1 @@
+what can you say about random error in multiple linear regression?

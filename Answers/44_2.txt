@@ -1,0 +1,2 @@
+R^2 can take any value between 0 and 1
+R can take any value between -1 and 1

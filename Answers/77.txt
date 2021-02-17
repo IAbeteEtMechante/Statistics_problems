@@ -1,0 +1,6 @@
+no.
+often they are symetrical, but they dont have to.
+
+example:
+in logistic regression, we exponentiate the CI, then they are not symetrical anymore
+In other situations too, there is no rule that say they have to be symetrical at all.

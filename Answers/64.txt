@@ -1,0 +1,6 @@
+
+epsilon_i = y_i  - y^_i (it is a real number)
+
+we have n epsilon_i
+
+They are Gaussian,  mean zero, are independant and identical standard deviation.

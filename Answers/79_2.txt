@@ -1,0 +1,29 @@
+you can check with a goodness of fit test.
+
+it is very simple
+
+chi square test:
+
+step 1: hypotehsis:
+
+you just test the null hypothesis: all betas are equal to 0 (except the intercept)
+
+step2: critical level
+
+(deviance of null is number of observation minus 1, took out one for the intercept  =  n - 1)
+
+(current deviance = n- 1 - k)
+
+df = df(deviance of null) - df(current deviance) 
+df = (n- 1) - (n- 1 -k) = k
+
+we look at chi square df = k, find the chi_critical for alpha = 0.05. 
+
+step3: calculate the statistics (chi square here):
+
+chi_square =   deviance of null - current deviance 
+(remember deviance big is bad = worse model)
+(deviance is an indicator of how bad the model is)
+
+4/ conclusion if chi_square > chisquare_critical: reject nULL, we have a good model.
+

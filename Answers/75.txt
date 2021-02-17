@@ -1,0 +1,10 @@
+they are very different
+they look a little bit the same in the notations
+
+but the techinque very different:
+
+multiple linear regression:
+minimize sum of square error
+
+logistic regression:
+use maximum likelihood estimator
