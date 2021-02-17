@@ -1,1 +1,1 @@
-can you describe the linear regression model?
+Explain the simple linear regression model.

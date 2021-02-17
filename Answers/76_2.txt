@@ -17,9 +17,12 @@ admission = -3.98 + 0.002 (gre) + 0.804 (gpa) -0.675(rank2) - 1.340 (rank3) - 1.
 3/ to check the importance of rank2, rank3, rank4
 we can do it by hand, take them out and look if good fit or not
 or we can use R and perform a wald test(see next pictures)
-In wald test, we group together Terms= 4:6   (to group rank2, rank3 and rank4).
+In wald test, we group together Terms= 4:6   (to group rank2, rank3 and rank4, and we start at 4 because 1 is intercept).
 
-nobody looks at z value and p value for intercept
+NOTE: nobody looks at z value and p value for intercept
+
+4/get the 95% CI for the coefficients with just one line of code:  
+confint(mylogit)
 
 
 #######################################################
@@ -30,7 +33,10 @@ binary$rank = factor(binary$rank)
 mylogit <- glm(admit ~ gre + gpa + rank, data = binary, family = binomial)
 summary(mylogit)
 
-
+#perfor wald test for rank dummy variables
 library(aod)
 library(ggplot2)
 wald.test(b = coef(mylogit), Sigma = vcov(mylogit), Terms = 4:6)
+
+#get 95% CI
+confint(mylogit)

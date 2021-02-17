@@ -1,0 +1,5 @@
+if you put all the variables under the sun as predictor variables, you will get something that looks like a better multiple linear regression.
+But IT IS NOT.
+
+The goal is to have as little predictor variables as possible.
+Understand which variable brings a lot of prediction, and remove the others.

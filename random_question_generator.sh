@@ -24,6 +24,8 @@ answer_txt_6="${current_directory}/Answers/${random_number}_6.txt"
 answer_png_6="${current_directory}/Answers/${random_number}_6.png"
 answer_txt_7="${current_directory}/Answers/${random_number}_7.txt"
 answer_png_7="${current_directory}/Answers/${random_number}_7.png"
+answer_txt_8="${current_directory}/Answers/${random_number}_8.txt"
+answer_png_8="${current_directory}/Answers/${random_number}_8.png"
 
 
 if [[ -e $question_txt ]]; then
@@ -156,5 +158,21 @@ if [[ -e $answer_png_7 ]]; then
     read -p "Press enter to see next part of the answer."
     printf "\n"
     shotwell $answer_png_7
+
+fi
+
+if [[ -e $answer_txt_8 ]]; then
+    printf "\n\n"
+    read -p "Press enter to see next part of the answer."
+    printf "\n"
+    cat $answer_txt_8
+    
+fi
+
+if [[ -e $answer_png_8 ]]; then
+    printf "\n\n"
+    read -p "Press enter to see next part of the answer."
+    printf "\n"
+    shotwell $answer_png_8
 
 fi

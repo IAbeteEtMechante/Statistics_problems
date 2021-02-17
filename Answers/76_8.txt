@@ -1,0 +1,3 @@
+in the last picture, we do prediction
+
+LL and UL are respectively the lower and higher bound for the 95% confidence interval for the predicted probability
