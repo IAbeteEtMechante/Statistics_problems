@@ -40,4 +40,4 @@ These links are quite usefull in my opinion to calculate and visualize p-values 
 * [Student t distribution](https://homepage.divms.uiowa.edu/~mbognar/applets/t.html)
 * [Chi Square distribution](https://homepage.divms.uiowa.edu/~mbognar/applets/chisq.html)
 * [Fisher exact test](https://www.socscistatistics.com/tests/fisher/default2.aspx)
-* [Wilcoxon rank sum](https://homepage.divms.uiowa.edu/~mbognar/applets/wilcoxon-rank-sum.html)
+* [How to run a Kruskal-Wallis test in R](https://www.sheffield.ac.uk/polopoly_fs/1.714570!/file/stcp-karadimitriou-KW.pdf)
