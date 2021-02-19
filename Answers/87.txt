@@ -1,0 +1,2 @@
+pearson measures the strength of linear corelation
+spearman measures the strength of monotonic correlation

@@ -1,0 +1,8 @@
+Say you run a simple linear regression.
+
+You get that y = 0.654x + 94.046  (Framingham study)
+
+you also get a 95%CI for the slope : [0.438, 0.868]
+
+what does that tell you?
+

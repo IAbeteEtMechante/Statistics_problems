@@ -1,4 +1,4 @@
 it is affected by extreme values
 it cannot be located graphically
 it could provide misleading conclusions (because it is affected by exrtreme values)
-it could be biased.
+it could be biased (estimation of central tendancy, not biased estimator of the mean of course).
