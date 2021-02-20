@@ -41,6 +41,7 @@ These links are quite usefull in my opinion to calculate and visualize p-values 
 * [Chi Square distribution](https://homepage.divms.uiowa.edu/~mbognar/applets/chisq.html)
 * [Fisher exact test](https://www.socscistatistics.com/tests/fisher/default2.aspx)
 
+
 ## When to do what
 
 A Summary of Statistical Procedures
@@ -52,3 +53,7 @@ A Summary of Statistical Procedures
 | Compare 2 dependent groups | 4 | 5 | 6 |
 | Association between variables (*control for confounding) | 5 | 6 | 7 |
 | Compare more than 2 groups  |   |   | [Kruskal-Wallis test](./Answers/86.png)  |
+
+* [How to run a Kruskal-Wallis test in R](https://www.sheffield.ac.uk/polopoly_fs/1.714570!/file/stcp-karadimitriou-KW.pdf)
+* [F distribution](https://homepage.divms.uiowa.edu/~mbognar/applets/f.html)
+
