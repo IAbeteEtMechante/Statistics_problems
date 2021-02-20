@@ -44,7 +44,7 @@ A Summary of Statistical Procedures
 | Compare 2 independent groups | 3 | 4 | 5 |
 | Compare 2 dependent groups | 4 | 5 | 6 |
 | Association between variables (*control for confounding) | 5 | 6 | 7 |
-| Compare more than 2 groups  |   |   | [Kruskal-Wallis test](./Slides_by_theme/Kusrkal-Wallis test/Kruskal.odp)  |
+| Compare more than 2 groups  |   |   | [Kruskal-Wallis test](https://github.com/IAbeteEtMechante/Statistics_problems/blob/master/Slides_by_theme/Kusrkal-Wallis%20test/Kruskal.odp)  |
 
 ## Usefull links
 
