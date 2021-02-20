@@ -1,6 +1,15 @@
 # Statistics questions and answers
 
-Grab a question about statistics, then look up the answer if needed.
+This repo regroups 99 questions about Statistics with their answers.
+You can use this repo manually: 
+* check the questions, in the /Questions directory
+* look up the answer in the /Answers directory
+
+You can also use the bash script to generate random question for you (see section about Random Question Generator below)
+
+There is also a gallery of links mostly usefull to have interactive calculators with charts for Normal distribution, Student t distribution etc...
+
+Last section in this README makes a summary table of common statistical methods, with some hyperlinks to the corresponding slides for more explanations.
 
 ## Usefull links
 
