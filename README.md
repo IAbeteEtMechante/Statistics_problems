@@ -11,7 +11,7 @@ These links are quite usefull in my opinion to calculate and visualize p-values 
 * [Fisher exact test](https://www.socscistatistics.com/tests/fisher/default2.aspx)
 * [How to run a Kruskal-Wallis test in R](https://www.sheffield.ac.uk/polopoly_fs/1.714570!/file/stcp-karadimitriou-KW.pdf)
 * [F distribution](https://homepage.divms.uiowa.edu/~mbognar/applets/f.html)
-* [Other distributions you might need](https://homepage.divms.uiowa.edu/~mbognar/applets/)
+* [Other distributions calculators you might need (more fancy ones)](https://homepage.divms.uiowa.edu/~mbognar/applets/)
 * [More theoritical: MIT course](https://www.youtube.com/watch?v=VPZD_aij8H0&list=PLUl4u3cNGP60uVBMaoNERc6knT_MgPKS0)
 
 
