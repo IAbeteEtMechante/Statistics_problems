@@ -1,0 +1,6 @@
+here only the position in comparison to median in the sample matters.
+we can build our own dataset with 24 samples over 5250 and the rest below(see 93.csv)
+
+then run the r code in 93.R
+
+see slides in Slides/Median for more info on thsi example

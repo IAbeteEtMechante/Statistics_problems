@@ -1,1 +1,2 @@
-not done yet
+not answer yet
+check the /slides_by_theme/logistic_regression.odp

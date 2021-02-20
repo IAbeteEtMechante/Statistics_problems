@@ -2,7 +2,7 @@
 clear
 current_directory=$(pwd)
 #remember to change to adapt to the max number of questions
-random_number=$(shuf -i 1-84 -n 1)
+random_number=$(shuf -i 1-99 -n 1)
 echo "Question number:" $random_number ":"
 printf "\n"
 question_txt="${current_directory}/Questions/${random_number}.txt"
@@ -26,6 +26,12 @@ answer_txt_7="${current_directory}/Answers/${random_number}_7.txt"
 answer_png_7="${current_directory}/Answers/${random_number}_7.png"
 answer_txt_8="${current_directory}/Answers/${random_number}_8.txt"
 answer_png_8="${current_directory}/Answers/${random_number}_8.png"
+answer_txt_9="${current_directory}/Answers/${random_number}_9.txt"
+answer_png_9="${current_directory}/Answers/${random_number}_9.png"
+answer_txt_10="${current_directory}/Answers/${random_number}_10.txt"
+answer_png_10="${current_directory}/Answers/${random_number}_10.png"
+answer_txt_11="${current_directory}/Answers/${random_number}_11.txt"
+answer_png_11="${current_directory}/Answers/${random_number}_11.png"
 
 
 if [[ -e $question_txt ]]; then
@@ -174,5 +180,53 @@ if [[ -e $answer_png_8 ]]; then
     read -p "Press enter to see next part of the answer."
     printf "\n"
     shotwell $answer_png_8
+
+fi
+
+if [[ -e $answer_txt_9 ]]; then
+    printf "\n\n"
+    read -p "Press enter to see next part of the answer."
+    printf "\n"
+    cat $answer_txt_9
+    
+fi
+
+if [[ -e $answer_png_9 ]]; then
+    printf "\n\n"
+    read -p "Press enter to see next part of the answer."
+    printf "\n"
+    shotwell $answer_png_9
+
+fi
+
+if [[ -e $answer_txt_10 ]]; then
+    printf "\n\n"
+    read -p "Press enter to see next part of the answer."
+    printf "\n"
+    cat $answer_txt_10
+    
+fi
+
+if [[ -e $answer_png_10 ]]; then
+    printf "\n\n"
+    read -p "Press enter to see next part of the answer."
+    printf "\n"
+    shotwell $answer_png_10
+
+fi
+
+if [[ -e $answer_txt_11 ]]; then
+    printf "\n\n"
+    read -p "Press enter to see next part of the answer."
+    printf "\n"
+    cat $answer_txt_11
+    
+fi
+
+if [[ -e $answer_png_11 ]]; then
+    printf "\n\n"
+    read -p "Press enter to see next part of the answer."
+    printf "\n"
+    shotwell $answer_png_11
 
 fi

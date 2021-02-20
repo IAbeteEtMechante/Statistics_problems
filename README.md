@@ -40,3 +40,15 @@ These links are quite usefull in my opinion to calculate and visualize p-values 
 * [Student t distribution](https://homepage.divms.uiowa.edu/~mbognar/applets/t.html)
 * [Chi Square distribution](https://homepage.divms.uiowa.edu/~mbognar/applets/chisq.html)
 * [Fisher exact test](https://www.socscistatistics.com/tests/fisher/default2.aspx)
+
+## When to do what
+
+A Summary of Statistical Procedures
+
+|   | Measurement Data | Categorical Data | Messy Measurement Data (non-normal) |
+|---|---|---|---|
+| Describe a population | 2 | 3 | 4 |
+| Compare 2 independent groups | 3 | 4 | 5 |
+| Compare 2 dependent groups | 4 | 5 | 6 |
+| Association between variables (*control for confounding) | 5 | 6 | 7 |
+| Compare more than 2 groups  |   |   | [Kruskal-Wallis test](./Answers/86.png)  |
